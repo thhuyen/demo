@@ -1,0 +1,54 @@
+/* ----------color-------- */
+:root {
+    --main-color: #a88e8a;
+    --radius-reser: 10px;
+    --border-grey: #b0b0b0;
+}
+
+* {
+    margin: 0;
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* -----for header and footer */
+.same {
+    display: block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background: #fff;
+}
+/* ------------------------- */
+.btn {
+    outline: none !important;
+    border: none !important;
+    cursor: pointer;
+    font-size: 1.5rem !important;
+}
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid1 {
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.flexspace_bw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* -----------animation------------- */
+
+
+
+
+/* ------------font-family---------- */

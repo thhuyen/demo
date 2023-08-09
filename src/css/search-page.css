@@ -1,0 +1,153 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cover_dropdown{
+    width: 95%;
+    /* heights: 50%; */
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* margin-bottom: 5%; */
+}
+.cover_dropdown .tab_open{
+    /* padding: 20px 10px; */
+}
+.cover_dropdown label {
+    font-size: 20px;
+    font-weight: bold;
+    width: inherit;
+}
+.cover_dropdown i{
+    margin: auto 10px ;
+    /* font-size: medium; */
+    float: right;
+    /* margin-bottom: 20px; */
+}
+
+.tabcontent {
+    /* margin: auto; */
+    padding: 0 30px 10px 30px;
+    /* margin-bottom: 10px !important; */
+    
+}
+.tabcontent .close{
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.tabcontent .close:hover{
+    color: red;
+}
+.tabcontent .input_search{
+    width: 90%;
+    /* height: 40px; */
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    /* padding: 10px; */
+    display: flex;
+    align-items: center !important;
+}
+.tabcontent .input_search input {
+    width: 90%;
+    height: 47px;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 0;
+    font-size: 1.5rem;
+    background-color: transparent;
+}
+.tabcontent input:focus{
+    outline: none;
+}
+ .tabcontent table input{
+    text-align: center;
+    border: none;
+} 
+ .tabcontent table button {
+     text-align: center;
+     border-radius: 50px;
+        border: 1px solid gray;
+ }
+ .tabcontent table button:hover {
+     background-color: #dcbdb8;
+ }
+.tabcontent table td {
+    font-size: 1.5rem;
+    /* margin: 10px 30px; */
+}
+.tabcontent .cover_date .datebook {
+    margin: 0 20px 0 0;
+    font-size: 1.5rem;
+     font-weight: 600; 
+     color: #dcbdb8;
+     display: inline-block;
+}
+.datebook p {
+    font-size: 1.3rem;
+}
+#checkin_date, #checkout_date {
+    font-size: 1.5rem;
+}
+.icon_x--time {
+    margin-bottom: 20px;
+}
+
+/* Nút Dropdown*/
+.nut_dropdown {
+    background-color: #0080ff;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* Thiết lập vị trí cho thẻ div với class dropdown*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Nội dung Dropdown */
+.noidung_dropdown {
+    /*Ẩn nội dụng các đường dẫn*/
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Thiết kế style cho các đường dẫn tronng Dropdown 
+.noidung_dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}*/
+
+/* .hienThi {
+    display: block;
+} */
+
+.tabcontent{
+    /* display: none; */
+}
+
+@media (max-width: 460px) {
+    .tab_search--res {
+        height: 47px;
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 350px) {
+    .tabcontent {
+        padding: 0 0 10px 10px;        
+    }
+    .tabcontent .input_search input {
+        height: 40px;
+    }
+}
